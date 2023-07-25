@@ -1,7 +1,10 @@
 # SQS-to-Postgres
-1. read JSON data containing user login behavior from an AWS SQS Queue 2. Find a way for data analysts to identify duplicate values in those fields 3. write each record to a Postgres database.
+Objective:
+1. read JSON data containing user login behavior from an AWS SQS Queue , that is made available via a custom localStack image that has the data pre loaded.
+2. Find a way for data analysts to identify duplicate values in those fields.
+3. write each record to a Postgres database that is made available via a custom postgres image that has the tables pre created.
 
-2. This README file will help you run the Take home test. For the most part I commented on the code file(fetch-rewards-data-engineering-TH.py).
+This README file will help you run the Take home test. For the most part I commented on the code file(fetch-rewards-data-engineering-TH.py).
 
 •	Package Installation:  
 
